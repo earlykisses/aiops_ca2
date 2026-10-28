@@ -1,0 +1,14 @@
+{
+    "project": "Twitter Entity Sentiment Analysis",
+    "algorithm": "TF-IDF + Logistic Regression",
+    "classes": [
+        "Irrelevant",
+        "Negative",
+        "Neutral",
+        "Positive"
+    ],
+    "test_accuracy": 0.8652959943282524,
+    "validation_accuracy": 0.949,
+    "test_size": 0.2,
+    "random_state": 42
+}
