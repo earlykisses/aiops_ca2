@@ -1,14 +1,13 @@
-```yaml
 name: Twitter Sentiment CI
 
 on:
   push:
     branches:
-      - main
+      -main
 
   pull_request:
     branches:
-      - main
+      -main
 
   workflow_dispatch:
 
@@ -43,4 +42,3 @@ jobs:
           context: .
           push: false
           tags: twitter-sentiment-api:ci
-```
